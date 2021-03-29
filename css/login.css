@@ -1,0 +1,82 @@
+:root {
+    --main-color: #ffbf00;
+    --color-1: #e91e63;
+    --color-2: #f5ae10;
+    --color-3: #09d69c;
+    --bg-dark: #2b2c2f;
+    --main-to-dark-color: var(--main-color);
+    --dark-to-main-color: var(--bg-dark);
+    --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --shadow-black-300: 0 5px 15px rgba(0, 0, 0, 0.3);
+    --black-900: #000000;
+    --black-400: #555555;
+    --black-100: #f7f7f7;
+    --black-000: white;
+    --black-alpha-100: rgba(0, 0, 0, 0.05);
+}
+
+section {
+    max-height: 100vh;
+}
+
+.welcome {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+input[type=email],
+input[type=password] {
+    background-color: white;
+    border-style: none;
+    border-bottom: 1px solid #bbbbbbbb;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.form-group input[type=text]:focus {
+    background-color: lightblue;
+}
+
+button[type=submit] {
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.new {
+    padding-top: 30px;
+    align-items: center;
+}
+
+.new a {
+    color: #ffbf00;
+}
+
+.form-check {
+    float: right;
+}
+
+.login {
+    margin-top: 30px;
+}
+
+.img-center img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 130px;
+}
+
+.welcome h3 {
+    color: var(--black-900);
+}
+
+.welcome p {
+    color: var(--black-400);
+}
+
+label {
+    color: var(--black-900);
+}

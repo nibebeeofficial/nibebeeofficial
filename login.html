@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nibebee | Sign in</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <section>
+        <!-------------------------Sign Up---------------------------->
+        <div class="container">
+            <div class="login">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class="img-center ">
+                            <img src="img/Logo/logo2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row  justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class=" center ">
+                            <div class="welcome ">
+                                <h3>Welcome</h3>
+                                <p>Sign in to continue</p>
+                            </div>
+                            <form id="login-form" method="POST">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="emailsignup_field" aria-describedby="emailHelp">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="passwordsignup_field">
+                                </div>
+                                <div class="form-check">
+                                    <a href="">
+                                        <p>Forgot Password?</p>
+                                    </a>
+                                </div>
+                                <button type="submit" class="btn btn-1 ">Sign In</button>
+                                <div class="new text-center">
+                                    <p>New User? <span><a href="signup.html">Sign up</a></span>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+        apiKey: "AIzaSyANOUvd39-B_Qyt4f9nWrEvBoCDr3bAPs4 ",
+        authDomain: "nibebeeapp.firebaseapp.com ",
+        databaseURL: "https://nibebeeapp.firebaseio.com ",
+        projectId: "nibebeeapp ",
+        storageBucket: "nibebeeapp.appspot.com ",
+        messagingSenderId: "112062661001 ",
+        appId: "1:112062661001:web:57a15ccb5a9c2b8aa96158 ",
+        measurementId: "G-TYCH70K6EM "
+    };
+    // Initialize Firebase
+    //
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+</script>
+<!-- jquery js -->
+<script src="js/jquery.min.js"></script>
+<!-- popper js -->
+<script src="js/popper.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- owl carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- ScrollIt js -->
+<script src="js/scrollIt.min.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+<script src="js/tutorial.js"></script>
+<script src="js/auth.js"></script>
+
+</html>
